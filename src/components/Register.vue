@@ -78,7 +78,7 @@ export default {
         const register = async () => {
             try {
                 // Realiza la solicitud de registro
-                const response = await axios.post('http://3.90.59.161/', {
+                const response = await axios.post('https://3.90.59.161/', {
                     name: name.value,
                     email: email.value,
                     password: password.value
