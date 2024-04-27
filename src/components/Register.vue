@@ -78,7 +78,7 @@ export default {
         const register = async () => {
             try {
                 // Realiza la solicitud de registro
-                const response = await axios.post('https://jcrivas.runnergeeks.com/api/stor', {
+                const response = await axios.post('https://jcrivas.runnergeeks.com/api/store', {
                     name: name.value,
                     email: email.value,
                     password: password.value
