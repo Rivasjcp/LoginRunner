@@ -48,7 +48,7 @@ export default {
           } else {
               try {
                   // Realiza la solicitud para obtener los usuarios
-                const response = await axios.get('http://localhost:8000/api/users-index', {
+                const response = await axios.get('https://jcrivas.runnergeeks.com/api/users-index', {
                       headers: {
                           'Authorization': `Bearer ${token}`
                       }
