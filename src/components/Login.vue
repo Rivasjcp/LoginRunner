@@ -78,7 +78,7 @@ export default {
         const login = async () => {
             try {
                 // Realiza la solicitud de inicio de sesión
-                const response = await axios.post('http://3.90.59.161/', {
+                const response = await axios.post('http://3.90.59.161/api/', {
                     email: email.value,
                     password: password.value
                 });
