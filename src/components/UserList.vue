@@ -48,11 +48,7 @@ export default {
           } else {
               try {
                   // Realiza la solicitud para obtener los usuarios
-                const response = await axios.get('https://jcrivas.runnergeeks.com/api/users-index', {
-                      headers: {
-                          'Authorization': `Bearer ${token}`
-                      }
-                  });
+                const response = await axios.get('https://jcrivas.runnergeeks.com/api/users-index');
                   // Guarda los usuarios en la propiedad reactiva
                   users.value = response.data.users;
 
