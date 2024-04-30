@@ -13,6 +13,7 @@ const routes = [
   // Ruta para el inicio de sesión
   { path: '/login', component: Login },
   // Ruta para la lista de usuarios
+  { path: '/users', component: UserList },
   { path: '/', component: UserList }
 ];
 
